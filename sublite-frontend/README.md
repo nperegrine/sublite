@@ -1,4 +1,4 @@
-> Improved Vue front-end for Sublite with type-safe Vuex implementation and many other improvements.
+> Nuxt 3 front-end for Sublite with Pinia store implementation.
 
 ## Demo
 
