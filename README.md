@@ -8,9 +8,7 @@
 
 An online demo hosted for free on Heroku can be found at the following links:
 
-- Nuxt 3 Front-end Screenshots
-
-https://drive.google.com/drive/folders/1-XZItzrNfAnqpy_USYJ05brykzY8J8R4?usp=share_link
+- Nuxt 3 Front-end Screenshots -> https://drive.google.com/drive/folders/1-XZItzrNfAnqpy_USYJ05brykzY8J8R4?usp=share_link
 
 - Sublite back-end API -> https://subliteapi.herokuapp.com
 
