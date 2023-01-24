@@ -90,13 +90,12 @@
               v-else-if="field.type === 'boolean'"
               v-model:checked="subscriber.fields[index].value"
             />
-            <!-- todo::improve date handling -->
-            <!-- <input
+            <a-date-picker
               type="date"
               class="form-control"
               v-else-if="field.type === 'date'"
-              :value="subscriber.fields[index].value"
-            /> -->
+              v-model:value="subscriber.fields[index].value"
+            />
           </a-form-item>
 
           <a-form-item class="mt-5">
@@ -148,6 +147,13 @@ export default defineComponent({
       subscriber.value = await subscriberStore.findOrFetchSubscriber(
         subscriberId
       )
+
+      // handle date fields
+      subscriber.value.fields.forEach(function (field, i) {
+        if (field.type === "date") {
+          field.value = dayjs(field.value, dateFormat)
+        }
+      })
     }
 
     onMounted(findSubscriber)

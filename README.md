@@ -21,7 +21,7 @@ Feel free to check out and play around the online demo API as much as needed.
 - MySQL 8
 - Nuxt.js 3
 - Ant Design Vue 3
-- Pinia 2 (Smooth State Management)
+- Pinia 2 (State Management)
 - Tailwind CSS 3
 
 ## Feature Showcases

@@ -6,7 +6,7 @@ An online demo of this API can be found at:
 
 -   https://subliteapi.herokuapp.com
 
-Feel free to check out and play around with the demo API as much as you want to in Postman or another API Development tool of your choice.
+Feel free to check out and play around with the demo API as much as much needed.
 
 ## Installation
 
