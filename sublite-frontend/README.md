@@ -2,9 +2,10 @@
 
 ## Demo
 
-An online demo of this Sublite Nuxt 3 app can be found at:
+A demo screenshots of this Sublite Nuxt 3 app can be found at:
 
-- https://sublite.herokuapp.com
+- https://drive.google.com/drive/folders/1-XZItzrNfAnqpy_USYJ05brykzY8J8R4?usp=share_link
+
 
 Feel free to check out and play around the online demo as much as you want to.
 
