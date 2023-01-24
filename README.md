@@ -1,10 +1,10 @@
-> subliteLite
+> Sublite - The all-in-one subscriber management platform
 
 ## API Documentation
 
 - https://elements.getpostman.com/redirect?entityId=1828213-26f43580-56a8-4381-baad-2a174cc1b4e7&entityType=collection
 
-## Demo Screenshots
+## Demo
 
 An online demo hosted for free on Heroku can be found at the following links:
 
@@ -12,9 +12,9 @@ An online demo hosted for free on Heroku can be found at the following links:
 
 https://drive.google.com/drive/folders/1-XZItzrNfAnqpy_USYJ05brykzY8J8R4?usp=share_link
 
-- subliteLite back-end API -> https://subliteapi.herokuapp.com
+- Sublite back-end API -> https://subliteapi.herokuapp.com
 
-Feel free to check out and play around the online demo as much as you want to.
+Feel free to check out and play around the online demo API as much as needed.
 
 ## Technology Stack
 
@@ -38,14 +38,13 @@ Feel free to check out and play around the online demo as much as you want to.
 
 ## Description
 
-This repository contains the improved sublite web and api code for the Test Assignment
+This repository contains the Sublite Laravel API and Nuxt 3 frontend code for the Test Assignment
 
-The following key considerations where taken into account when working on this improved Test Assignment:
+The following key considerations where taken into account when working on this Test Assignment:
 
-- **Security** - Prevent app from being hacked.
-- **Best Practices** - Application SOLID principles.
+- **Best Practices** - Application of SOLID principles.
 - **Documentation** - Provided information on how to setup the project.
-- **Tests** - Implemented more than a dozen Feature and Unit tests.
+- **Tests** - Implementation of Feature and Unit tests.
 
 ## Limitations
 
