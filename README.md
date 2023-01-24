@@ -16,6 +16,26 @@ https://drive.google.com/drive/folders/1-XZItzrNfAnqpy_USYJ05brykzY8J8R4?usp=sha
 
 Feel free to check out and play around the online demo as much as you want to.
 
+## Technology Stack
+
+- PHP 8
+- Laravel 9
+- MySQL 8
+- Nuxt.js 3
+- Ant Design Vue 3
+- Pinia 2 (Smooth State Management)
+- Tailwind CSS 3
+
+## Feature Showcases
+
+- Laravel framework
+- Nuxt.js 3 framework (Vue.js)
+- RESTful JSON API
+- ORM and relationships, associations
+- Request validation
+- Efficient use of native framework features: migrations, seeders, tests, etc.
+- PSR-2 compliant source code
+
 ## Description
 
 This repository contains the improved sublite web and api code for the Test Assignment
@@ -23,14 +43,13 @@ This repository contains the improved sublite web and api code for the Test Assi
 The following key considerations where taken into account when working on this improved Test Assignment:
 
 - **Security** - Prevent app from being hacked.
-- **Best Practices** - Applied SOLID principles, re-wrote and refactored code to ensure it is cleaner and easier to maintain.
+- **Best Practices** - Application SOLID principles.
 - **Documentation** - Provided information on how to setup the project.
 - **Tests** - Implemented more than a dozen Feature and Unit tests.
-- **Logic** - Prevented overspending of account balance
 
 ## Limitations
 
-- To keep things simple, Authentication and Authorization were not implemented
+- To keep things simple, Authentication and Authorization were not implemented.
 
 ## License
 
