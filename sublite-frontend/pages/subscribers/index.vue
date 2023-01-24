@@ -139,26 +139,28 @@ export default defineComponent({
       fieldStore.getFields()
     }
 
-    watch(fields, (newFields) => {
+    watch(fields, (newFields, oldFields) => {
       // filter table columns to include subscriber fields
-      newFields.forEach(function (value, i) {
-        columns.value.push({
-          title: value.title,
-          key:
-            value.type === "boolean"
-              ? "boolean" + value.id
-              : "value" + value.id,
-          dataIndex: [value.title, "value"],
+      if (oldFields.length !== newFields.length) {
+        newFields.forEach(function (value, i) {
+          columns.value.push({
+            title: value.title,
+            key:
+              value.type === "boolean"
+                ? "boolean" + value.id
+                : "value" + value.id,
+            dataIndex: [value.title, "value"],
+          })
         })
-      })
 
-      columns.value.push({
-        title: "Action",
-        key: "action",
-      })
+        columns.value.push({
+          title: "Action",
+          key: "action",
+        })
+      }
     })
 
-    watch(subscribers, (newSubscribers) => {
+    watch(subscribers, (newSubscribers, oldSubscribers) => {
       // filter table columns to include subscriber fields
       newSubscribers.forEach(function (subscriber, si) {
         subscriber.fields.forEach(function (field, fi) {
