@@ -1,4 +1,4 @@
-> Sublite
+> Sublite - Simple subscriber management application
 
 ![Alt text](https://drive.google.com/uc?id=15rYJJQacl_ro755wvmBdfT6LHO0hP4Dp "Sublite Logo")
 
